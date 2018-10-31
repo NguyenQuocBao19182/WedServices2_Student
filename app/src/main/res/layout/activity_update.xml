@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update">
+    <TextView
+        android:textColor="#121111"
+        android:id="@+id/txt_title"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Sửa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_suaten"
+        android:textColorHint="#131313"
+        android:textColor="#131313"
+        android:hint="nhap ten"
+        android:layout_below="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_suanamsinh"
+        android:textColorHint="#131313"
+        android:textColor="#131313"
+        android:hint="nhap nam sinh"
+        android:layout_below="@+id/edt_suaten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_suadiachi"
+        android:textColorHint="#131313"
+        android:textColor="#131313"
+        android:hint="nhap dia chi"
+        android:layout_below="@+id/edt_suanamsinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_capnhap"
+        android:text="CapNhap"
+        android:layout_below="@+id/edt_suadiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
